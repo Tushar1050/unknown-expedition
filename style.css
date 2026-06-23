@@ -1838,3 +1838,20 @@ img{
   height:auto;
   display:block;
 }
+/* =================================
+   HIRE ME BUTTON MOBILE FIX
+   Add at the END of style.css
+================================= */
+
+@media (max-width:768px){
+
+  .hire-btn{
+    display:none;
+  }
+
+  nav{
+    justify-content:center;
+  }
+
+}
+
